@@ -22,6 +22,9 @@ ifeq ($(OVERRIDE_TARGET_FLATTEN_APEX),true)
 PRODUCT_PRODUCT_PROPERTIES += ro.apex.updatable=false
 endif
 
+# Setup dalvik vm configs
+$(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
+
 # Get non-open-source specific aspects
 $(call inherit-product, vendor/oneplus/sdm845-common/sdm845-common-vendor.mk)
 
