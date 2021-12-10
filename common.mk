@@ -145,9 +145,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     lineage.livedisplay@2.0-service.oneplus_sdm845
 
-PRODUCT_PACKAGES += \
-    libavservices_minijail
-
 # Net
 PRODUCT_PACKAGES += \
     netutils-wrapper-1.0
@@ -224,7 +221,9 @@ PRODUCT_PACKAGES += \
 
 # WiFi Display
 PRODUCT_PACKAGES += \
-    libnl
+    libnl \
+    libavservices_minijail
+
 
 PRODUCT_BOOT_JARS += \
     WfdCommon
