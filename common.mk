@@ -346,6 +346,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     oneplus-fwk
 
+# OnePlus Camera
+$(call inherit-product-if-exists, vendor/oneplus/apps/OnePlusCamera/config.mk)
+
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti \
