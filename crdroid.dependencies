@@ -1,32 +1,14 @@
 [
   {
-    "remote": "crdroid",
-    "repository": "Terminator-J/android_hardware_oneplus",
-    "target_path": "hardware/oneplus",
-    "branch": "11.0-sdm845-common-test"
+    "repository": "android_hardware_oneplus",
+    "target_path": "hardware/oneplus"
   },
   {
-    "remote": "crdroid",
-    "repository": "crdroidandroid/android_kernel_oneplus_sdm845",
-    "target_path": "kernel/oneplus/sdm845",
-    "branch": "11.0"
+    "repository": "android_kernel_oneplus_sdm845",
+    "target_path": "kernel/oneplus/sdm845"
   },
   {
-    "remote": "crdroid-gitlab",
-    "repository": "crdroidandroid/proprietary_vendor_oneplus",
-    "target_path": "vendor/oneplus",
-    "branch": "11.0-sdm845-common"
-  },
-  {
-    "remote": "crdroid-gitlab",
-    "repository": "Terminator-J/crdroid_packages_apps_googlecamera",
-    "target_path": "packages/apps/GoogleCamera",
-    "branch": "support"
-  },
-  {
-    "remote": "crdroid-gitlab",
-    "repository": "Terminator-J/crdroid_packages_apps_onepluscamera",
-    "target_path": "packages/apps/OnePlusCamera",
-    "branch": "OOSCam3"
+    "repository": "android_packages_apps_onepluscamera",
+    "target_path": "packages/apps/OnePlusCamera"
   }
 ]
