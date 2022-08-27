@@ -3,12 +3,15 @@ persist.vendor.bluetooth.    u:object_r:vendor_bluetooth_prop:s0
 vendor.oem.bt.               u:object_r:vendor_bluetooth_prop:s0
 
 # Camera
-camera.                    u:object_r:camera_prop:s0
-persist.camera.            u:object_r:camera_prop:s0
-persist.opcamera           u:object_r:camera_prop:s0
-persist.vendor.camera.     u:object_r:camera_prop:s0
-ro.camera.                 u:object_r:camera_prop:s0
-vendor.camera.             u:object_r:camera_prop:s0
+camera.                   u:object_r:camera_prop:s0
+persist.camera.           u:object_r:camera_prop:s0
+persist.camera.assert.    u:object_r:camera_prop:s0
+persist.opcamera.         u:object_r:camera_prop:s0
+persist.vendor.camera.    u:object_r:camera_prop:s0
+ro.camera.                u:object_r:camera_prop:s0
+ro.com.google.            u:object_r:camera_prop:s0
+ro.opcamera.              u:object_r:camera_prop:s0
+vendor.camera.            u:object_r:camera_prop:s0
 
 # Debug
 gf.debug.    u:object_r:debug_prop:s0
