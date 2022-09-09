@@ -23,9 +23,6 @@
 # Block IO
 /dev/blkio(/.*)?                                                       u:object_r:blkio_file:s0
 
-# Data files
-/data/misc/lineage/client_package_name    u:object_r:lineage_data_file:s0
-
 # Devices
 /dev/dash                 u:object_r:dash_device:s0
 /dev/goodix_fp            u:object_r:fingerprintd_device:s0
@@ -49,7 +46,6 @@
 /mnt/vendor/op2(/.*)?    u:object_r:op2_file:s0
 
 # Persist files
-/mnt/vendor/persist/camera(/.*)?    u:object_r:oem_file:s0
 /mnt/vendor/persist/wlan(/.*)?      u:object_r:persist_wcnss_service_file:s0
 
 # Sys files

@@ -6,9 +6,5 @@
   {
     "repository": "android_kernel_oneplus_sdm845",
     "target_path": "kernel/oneplus/sdm845"
-  },
-  {
-    "repository": "android_vendor_oneplus_apps",
-    "target_path": "vendor/oneplus/apps"
   }
 ]

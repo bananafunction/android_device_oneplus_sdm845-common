@@ -5,5 +5,3 @@ allow untrusted_app_29 xdsp_device:chr_file { read };
 dontaudit untrusted_app_29 selinuxfs:file { read };
 
 get_prop(untrusted_app_29, adsprpc_prop)
-get_prop(untrusted_app_29, camera_prop)
-get_prop(untrusted_app_29, vendor_persist_camera_prop)
